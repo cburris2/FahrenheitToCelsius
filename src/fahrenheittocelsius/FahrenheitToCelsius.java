@@ -40,7 +40,7 @@ public class FahrenheitToCelsius {
         System.out.println("Your change is $"+(-change));
         */
         // Using a GUI
-        
+        // Testing Git Functionality in Netbeans.
         String temp = JOptionPane.showInputDialog(null, "Enter a temperature in F", 
                 "Farenheit to Celsius Calculator", JOptionPane.QUESTION_MESSAGE);
         
@@ -53,7 +53,7 @@ public class FahrenheitToCelsius {
                 "Fahrenheit to Celsius Calculator" , JOptionPane.PLAIN_MESSAGE);
         
         // Now using console input
-        Scanner input = new Scanner(System.in);
+       /* Scanner input = new Scanner(System.in);
         
         System.out.println("Enter a temperature:");
         
@@ -63,7 +63,7 @@ public class FahrenheitToCelsius {
         
         double cel = (5.0 / 9) * (fah - 32);
         System.out.println(" " + fah + "F is "
-                +(Math.round(cel*100.0)/100.0) +"C ");
+                +(Math.round(cel*100.0)/100.0) +"C ");*/
     }
     
 }
